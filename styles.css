@@ -1,0 +1,9 @@
+body {
+ background-image: url('./bodyBG.jpg');
+ background-size: cover;
+}
+
+.barButtons {
+    display: flex;
+    
+}
