@@ -1,9 +1,132 @@
-body {
- background-image: url('./bodyBG.jpg');
- background-size: cover;
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
 }
 
-.barButtons {
-    display: flex;
+/* fonts */
+
+@font-face {
+        font-family: "arimo";
+        src: url("./font/Arimo.woff2");
+    }
     
+@font-face {
+    font-family: "bebasNeueRegular";
+    src: url("./font/BebasNeueRegular.woff2");
+}
+
+.arimo {
+    font-family: "arimo";
+    text-transform: uppercase;
+}
+
+.bebasNeueRegular {
+    font-family: "bebasNeueRegular";
+    text-transform: uppercase;
+}
+
+/* general settings */
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url('');
+    background-size: cover;
+}
+
+button {
+    height: 70%;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+/* nav bar */
+
+.navigationBar {
+    height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'arimo';
+    text-transform: uppercase;
+    background-color: #fadadd;
+}
+
+.barButton_left{
+    display: flex;
+    background-color: transparent;
+    align-items: center;
+    font-family: 'arimo';
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    margin-left: 10px;
+}
+
+.navBarRightSide {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.navBarItems {
+    margin: 0 10px 0 10px;
+    font-size: 1.3rem;
+}
+
+.noBorder_transparent {
+    background-color: transparent;
+    border: none;
+}
+
+.flexbox_center {
+    display: flex;
+    align-items: center;
+}
+
+.clickable {
+    border-radius: 20px;
+}
+
+.clickable:hover{
+    text-shadow: 2px 2px 3px gray;
+    box-shadow: 3px 3px 7px grey;
+}
+
+.clickable:active {
+    box-shadow: 2px 2px 5px #fc894d;
+    text-shadow: none;
+}
+
+a:hover{
+    text-shadow: 2px 2px 3px gray;
+}
+
+a:active{
+    text-shadow: none;
+}
+
+#searchBar{
+    margin: 0 0 0 10px;
+}
+
+#searchBar:hover{
+    filter: drop-shadow(2px 2px 3px gray);
+}
+
+#searchBar:active{
+    filter: none;
+}
+
+/* body menu */
+
+.flexListedMenu {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 10vh 0 1vh 0;
 }

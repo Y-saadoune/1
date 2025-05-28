@@ -4,18 +4,37 @@
     <meta charset="UTF-8" />
     <title>title</title>
     <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./">
 </head>
 <body>
+    <header>
+        <nav class="navigationBar">
+            <button class="clickable barButton_left noBorder_transparent">
+                <img style="height: 70%;" src="./navigation bar/burgerMenuIcon.png" alt="">
+                <p style="margin-right: 10px;">our products</p>
+            </button>
+            <div class="navBarRightSide">
+                <button class="clickable flexbox_center noBorder_transparent">
+                    <img style="height: 70%;" src="https://media-public.canva.com/w-3CQ/MAFYvFw-3CQ/1/t.png" alt="">
+                    <p class="navBarItems arimo">home</p>
+                </button>
+                <a href="" class="navBarItems">about us</a>
+                <a href="" class="navBarItems">contact us</a>
+                <button class="noBorder_transparent">
+                    <img id="searchBar" src="./navigation bar/searching tool.webp" alt="search" style="height: 70%;">
+                </button>
+            </div>
+        </nav>
+        <p class="bebasNeueRegular" style="font-size: 3rem; text-align: center; margin-top: 2vh;">daisy®</p>
+    </header>
     <div>
-        <button class="barButtons">
-            <img width="px" src="./burger menu.png" alt="">
-            <p>our products</p>
-        </button>
-        <p></p>
-        <p></p>
-        <button>
-            <img src="" alt="search">
-        </button>
+        <ul class="arimo flexListedMenu" style="font-size: 1.5rem;">
+            <li><a href="">offers</a></li>
+            <li><a href="">popular</a></li>
+            <li><a href="">events</a></li>
+            <li><a href="">our services</a></li>
+        </ul>
+        <span style="display: block; border: solid 1px #fadadd;"></span>
     </div>
 </body>
 </html>

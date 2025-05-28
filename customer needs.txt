@@ -1,0 +1,46 @@
+1. Business Overview
+	Company name: Daisy
+	Industry: florist
+	Brief description of the business: selling flowers
+	Target audience: general puplic (so it has to be accessible)
+	
+2. Project Goals
+	What is the primary purpose of the website?: provides informations 
+	about the services
+	
+	What are the key goals for the site?: reach a wide public
+	
+	What actions do you want visitors to take?: sign up/in; contact 
+	the client(florist), get wanted informations, create a list of 
+	items, remove/add, and save it
+	
+	
+3. Design Preferences
+	Do you have brand guidelines? (colors: #fadadd,#a9888b,white 
+	fonts: arimo, logos: not yet)
+	
+	Preferred style (e.g., modern, minimalist, corporate, playful):
+	modern; not too overloaded; a touch of dynamism; responsive;
+	it should be easy to understand, intuitive so users quickly get 
+	used to it
+	
+	Websites you like (and why): like aquarelle.com but for showcasing
+	
+4. Functionality Requirements
+	Must-have features: contact form, gallery, agenda
+	displaying informations about offers and services; searching filter
+	
+	Integration needs (e.g., CRM, social media, payment gateways):
+	social media buttons; import my list into the basket
+	
+5. Technical Requirements
+	Domain name (existing or needed):
+
+6. Timeline & Budget
+	Desired launch date:
+	Budget range:
+	Deadline:
+	
+7. Maintenance & Support
+	updates: client could potentially ask for new features
+	managment: the client himself should be able to manage it
